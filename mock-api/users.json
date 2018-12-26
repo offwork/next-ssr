@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 13700,
+      "username": "remy",
+      "avatar": "https://avatars0.githubusercontent.com/u/13700?v=4",
+      "email": "remy@remysharp.com",
+      "name": "Remy Sharp",
+      "apikey": "6976562d-fb65-4f53-866e-7ddea74cb146"
+    },
+    {
+      "id": 10039583,
+      "username": "offwork",
+      "avatar": "https://avatars3.githubusercontent.com/u/10039583?v=4",
+      "email": "chomunist@gmail.com",
+      "name": "kerem",
+      "apikey": "d647216e-7091-4636-b21b-0286cf82f130"
+    }
+  ]
+}

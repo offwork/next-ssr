@@ -1,0 +1,57 @@
+{
+  "name": "next.training",
+  "version": "1.0.0",
+  "description": "next training",
+  "main": "index.js",
+  "author": "offwork <chomunist@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "NODE_ENV=production next build && next export",
+    "start": "NODE_ENV=production node server.js",
+    "mock-api": "json-server mock-api/db.json --port 3001  --routes mock-api/routes.json",
+    "dev-server": "PORT=3001 envy -- router ./routes/index.js"
+  },
+  "engines": {
+    "node": ">=10.14.x"
+  },
+  "dependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "isomorphic-unfetch": "^3.0.0",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "lowdb": "^1.0.0",
+    "ms": "^2.1.1",
+    "next": "^7.0.2",
+    "nick-generator": "^1.0.1",
+    "node-sass": "^4.11.0",
+    "nprogress": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-github2": "^0.1.11",
+    "react": "^16.7.0",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^16.7.0",
+    "request": "^2.88.0",
+    "session-file-store": "^1.2.0",
+    "slug": "^0.9.3",
+    "undefsafe": "^2.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@remy/envy": "^4.0.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "express-router-cli": "^1.5.3",
+    "json-server": "^0.14.0"
+  }
+}
